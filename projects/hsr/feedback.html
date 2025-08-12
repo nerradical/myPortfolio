@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link href="feedback.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <script src="navbar.js"></script>
+    <script src="feedback.js"></script>
+</head>
+<body class="dark-mode">
+    <div class="navbar">
+        <a href="main.html">Home</a>
+        <a href="character.html">Character Guides</a>
+        <a href="progression.html">Progression Guides</a>
+        <a href="tierlist.html">Tier List</a>
+        <a href="feedback.html" class="active">Feedback</a>
+        <button id="ldbutton" onclick="lightToggle()">Toggle light/dark</button>
+    </div>
+
+    <div class="content">
+        <div class="container1">
+            <form id="feedbackForm" class="feedback">
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <p>Feedback form</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Gender*:
+                        </td>
+                        <td class="inputs">
+                            <input type="radio" id="genderboy" name="gender" value="Boy" checked>
+                            <label for="genderboy">Male</label>
+                            <input type="radio" id="gendergirl" name="gender" value="Girl">
+                            <label for="gendergirl">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <label for="email">Email*:</label>
+                        </td>
+                        <td class="inputs">
+                            <input type="email" id="email" name="email" required>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td class="txt">
+                            Feedback*: 
+                        </td>
+                        <td class="inputs">
+                            <textarea id="feedback" name="feedback" required></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="inputs">
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="socials headers">
+            <p class="caption">Follow my socials:</p>
+            <div class="social-icons">
+                <a href="https://www.twitch.tv/radicallad_" target="_blank">
+                    <img src="./ica1pics/twitch.png" alt="Twitch" height="100px" width="100px">
+                </a>
+                <a href="https://www.instagram.com/darren.tzf" target="_blank">
+                    <img src="./ica1pics/instagram.png" alt="Instagram" height="85px" width="85px">
+                </a>
+            </div>
+        </div>
+        <div class="credits headers">
+            <p class="caption">Developed by Darren Tham from NYP</p>
+            <div class="nyp-logo">
+                <a href="https://www.nyp.edu.sg/student" target="_blank">
+                    <img src="./ica1pics/NYP-Logo.png" alt="NYP Logo" height="75px" width="200px">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+.container1 {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 7.5%;
+}
+
+.feedback p {
+    font-size: 1.5em;
+    text-align: center;
+    color: #4f8bc9;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.txt {
+    padding: 10px;
+    font-size: 1em;
+    color: #ccc;
+    font-weight: bold;
+    text-align: right;
+}
+
+.inputs {
+    padding: 10px;
+}
+
+.inputs input[type="radio"] {
+    margin-right: 5px;
+}
+
+.inputs input[type="email"], .inputs textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.inputs textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.inputs label {
+    margin-right: 15px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.inputs input[type="email"]:focus, .inputs textarea:focus {
+    outline: none;
+    border-color: #4f8bc9;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4f8bc9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #3a6fa1;
+}
+
+@media (max-width: 800px) {
+    .container1 {
+        width: 85%;
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container1 {
+        width: 75%;
+        margin-top: 25%;
+    }
+}

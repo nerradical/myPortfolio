@@ -1,0 +1,114 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+header {
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.character-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.character-info img {
+    width: 200px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.character-description {
+    max-width: 600px;
+}
+
+section {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+}
+
+section h2 {
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+.green {
+    color: #1af860;
+}
+
+.greenborder {
+    border: 1px solid #16cd50;
+}
+
+.greenborderbottom {
+    border-bottom: 2px solid #1af860;
+}
+
+.purple {
+    color: #783decdd;
+}
+
+.purpleborder {
+    border: 1px solid #5f24d6dd;
+}
+
+.purpleborderbottom {
+    border-bottom: 2px solid #5f24d6dd;
+}
+
+.pink {
+    color:#fb2bcadd;
+}
+
+.pinkborder {
+    border: 1px solid #d425abdd;
+}
+
+.pinkborderbottom {
+    border-bottom: 2px solid #d425abdd;
+}
+
+.blue {
+    color:#36ebeedd;
+}
+
+.blueborder {
+    border: 1px solid #2ac2c4dd;
+}
+
+.blueborderbottom {
+    border-bottom: 2px solid #2ac2c4dd;
+}
+
+.yellow {
+    color:#efdc29   
+}
+
+.yellowborder {
+    border: 1px solid #d4c324   
+}
+
+.yellowborderbottom {
+    border-bottom: 2px solid #d4c324;
+}

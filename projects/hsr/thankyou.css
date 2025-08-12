@@ -1,0 +1,29 @@
+
+.container1 {
+    text-align: center;
+    margin-top: 9%;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .container1 {
+        margin-top: 20%;
+    }
+
+    img {
+        width: 85%;
+    }
+}
+
+@media (max-width: 400px) {
+    .container1 {
+        margin-top: 25%;
+    }
+
+    img {
+        width: 75%;
+    }
+}

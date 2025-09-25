@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@source "../index.html";
+@source "./**/*.{js,jsx,ts,tsx}";
+
+
+/* add custom animation */
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@utility animate-wave {
+  animation: wave 1s ease-in-out infinite;
+}
